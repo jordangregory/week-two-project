@@ -1,21 +1,41 @@
+body {
+	font-family: 'PT Sans', sans-serif;
+}
+
+.navigationBar {
+
+}
+
 .navHeader {
 	display: flex;
-	justify-content: space-between;
+	
+}
 
+
+.getInvolved {
+	color: #0B1942;
 }
 
 .filmClubLogo {
 	background-color: #F5005B;
+	float: left;
+}
+.linksTop {
+	display: flex;
+  flex: 1;
+  flex-wrap: wrap;
 }
 
-.links a {
+.linksTop a {
 	display: flex;
-	text-decoration: none;
+  text-decoration: none;
+  flex: 1 100%;
 }
 
 .homeLink {
 	color: white;
 	background-color: #00A5BF;
+	
 }
 .calendarLink {
 	color: white;
@@ -25,3 +45,36 @@
 	color: white;
 	background-color: #00D5E7;
 }
+
+.titleSection {
+	background-color: #0B1942;
+	color: #FFFFFF;
+}
+
+.paragrapgh {
+	color: #0B1942;
+}
+
+ .upNextSection {
+	 background-color: #0B1942;
+ }
+
+.navFooter {
+	/*display: flex;*/
+	padding: 0;
+}
+
+.linksBottom {
+	display: flex;
+  flex: 1;
+  flex-wrap: wrap;
+}
+
+.linksBottom a {
+	display: flex;
+  text-decoration: none;
+  flex: 1 100%;
+}
+ .copyRight {
+	 background-color: #7DDFE8;
+ }
