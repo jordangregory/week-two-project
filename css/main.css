@@ -42,7 +42,7 @@ body {
 }
 
 .topSection {
-	border: 5px solid pink;
+	/*border: 5px solid pink;*/
 	margin: 0 10%;
 }
 
@@ -55,26 +55,81 @@ body {
 	color: #0B1942;
 }
 
+.upNextHeader {
+	color: white;
+	margin-left: 10%;
+}
+
 .upNextForeground {
-	border: 5px solid red;
+	display: flex;
+	flex-wrap: wrap;
+	/*border: 5px solid red;*/
 	background-color: #E2E2E2;
-	margin: 0 10%;
+	/*margin: 0 10%;*/
+	/*margin-bottom: 5%;*/
+	/*padding: 5%;*/
+	width: 80%;
+	margin: auto;
+	margin-bottom: 2rem;
 }
 
 .upNextSection {
 	 background-color: #0B1942;
  }
 
+ .needsAbottomBorder {
+	 border-bottom: 1px solid black;
+ }
+
+ .bold {
+	 font-weight: bold; 
+ }
+
  .youTube {
 	 color: #00B7D3;
  }
 
+ .medium {
+	 font-size: 1.5rem;
+ }
+
+.upNextForeground-child {
+	width: 50%;
+}
+
+.image-parent {
+	width:80%;
+	margin: auto;
+	margin-top: 1rem;
+}
+
+.upNextForeground-child-image {
+	width: 100%;
+	padding: 5px;
+}
+
+.discussionList {
+	padding-left: 25px;
+}
+
+.spacer {
+	width: calc(50% - 5px - 5px);
+	margin: auto;
+	margin-top: 16px;
+	margin-bottom: 0;
+}
+
+li {
+	margin-bottom: 11px;
+}
+
 .restofPosters {
 	display: flex;
 	flex-wrap: wrap;
-	border: 5px solid green;
+	/*border: 5px solid green;*/
 	background-color: #E2E2E2;
 	margin: 0 10%;
+	padding: 5%;
 }
  
 
@@ -92,4 +147,8 @@ body {
 }
  .copyRight {
 	 background-color: #7DDFE8;
+ }
+
+ .footer {
+	 border: 5px solid orange;
  }
