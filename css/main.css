@@ -1,5 +1,27 @@
+.navHeader {
+	display: flex;
+	justify-content: space-between;
 
+}
 
 .filmClubLogo {
 	background-color: #F5005B;
+}
+
+.links a {
+	display: flex;
+	text-decoration: none;
+}
+
+.homeLink {
+	color: white;
+	background-color: #00A5BF;
+}
+.calendarLink {
+	color: white;
+	background-color: #00B7D3;
+}
+.joinLink {
+	color: white;
+	background-color: #00D5E7;
 }
