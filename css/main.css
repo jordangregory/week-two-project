@@ -167,4 +167,17 @@ footer{
 	 border-radius: 50%;
  }
 
- 
+ .information {
+	 display: flex;
+	 flex-direction: column;
+ }
+
+.genres {
+	display: flex;
+	flex-direction: column;
+}
+
+.formBox {
+	height: 2rem;
+	margin-bottom: 1rem;
+}
