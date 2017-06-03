@@ -25,6 +25,7 @@ body {
   text-decoration: none;
   flex: 1 100%;
 	justify-content: center;
+	align-items: center;
 }
 
 .homeLink {
@@ -139,16 +140,31 @@ li {
   flex-wrap: wrap;
 }
 
-.linksBottom a {
-	display: flex;
-  text-decoration: none;
+ .linksBottom a{
+	text-decoration: none;
   flex: 1 100%;
 	justify-content: center;
+	border: 5px solid red;
 }
+
  .copyRight {
 	 background-color: #7DDFE8;
+	 width: 100%;
  }
 
- .footer {
+footer{
+	width: 100%;
+	border: 5px solid pink;
+}
+ .navFooter {
 	 border: 5px solid orange;
  }
+
+ /*Join - CSS*/
+
+ .placeholder-photo {
+	 height: 20rem;
+	 border-radius: 50%;
+ }
+
+ 
