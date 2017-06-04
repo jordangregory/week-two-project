@@ -127,6 +127,7 @@ li {
 .restofPosters {
 	display: flex;
 	flex-wrap: wrap;
+	flex: 1 50%;
 	/*border: 5px solid green;*/
 	background-color: #E2E2E2;
 	margin: 0 10%;
@@ -141,10 +142,12 @@ li {
 }
 
  .linksBottom a{
+	display: flex;
 	text-decoration: none;
   flex: 1 100%;
 	justify-content: center;
-	border: 5px solid red;
+	align-items: center;
+	/*border: 5px solid red;*/
 }
 
  .copyRight {
@@ -154,10 +157,11 @@ li {
 
 footer{
 	width: 100%;
-	border: 5px solid pink;
+	/*border: 5px solid pink;*/
 }
  .navFooter {
-	 border: 5px solid orange;
+	 display: flex;
+	 /*border: 5px solid orange;*/
  }
 
  /*Join - CSS*/
@@ -175,9 +179,11 @@ footer{
 .genres {
 	display: flex;
 	flex-direction: column;
+	flex-wrap: wrap;
 }
 
-.formBox {
-	height: 2rem;
+.inputBox {
+	height: 200px;
+	width: 300px;
 	margin-bottom: 1rem;
 }
