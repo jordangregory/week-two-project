@@ -1,18 +1,18 @@
 body {
-	font-family: 'PT Sans', sans-serif;
+  font-family: 'PT Sans', sans-serif;
 }
 
 .navHeader {
-	display: flex;
+  display: flex;
 }
 
 .getInvolved {
-	color: #0B1942;
+  color: #0B1942;
 }
 .logo-container {
-	background-color: #F5005B;
-	float: left;
-	height: 150px;
+  background-color: #F5005B;
+  float: left;
+  height: 150px;
   width: 180px;
   /* padding: 10px; */
   display: flex;
@@ -22,229 +22,222 @@ body {
 }
 
 .filmClubLogo {
-	height: 120px;
-	width: 110px;
-
+  height: 120px;
+  width: 110px;
 }
 .linksTop {
-	display: flex;
+  display: flex;
   flex: 1;
   flex-wrap: wrap;
 }
 
 .linksTop a {
-	display: flex;
+  display: flex;
   text-decoration: none;
   flex: 1 100%;
-	justify-content: center;
-	align-items: center;
+  justify-content: center;
+  align-items: center;
 }
 
 .homeLink {
-	color: white;
-	background-color: #00A5BF;
-	
+  color: white;
+  background-color: #00A5BF;
 }
 .calendarLink {
-	color: white;
-	background-color: #00B7D3;
+  color: white;
+  background-color: #00B7D3;
 }
 .joinLink {
-	color: white;
-	background-color: #00D5E7;
+  color: white;
+  background-color: #00D5E7;
 }
 
 .topSection {
-	/*border: 5px solid pink;*/
-	margin: 0 10%;
+  /*border: 5px solid pink;*/
+  margin: 0 10%;
 }
 
 .titleSection {
-	background-color: #0B1942;
-	color: #FFFFFF;
+  background-color: #0B1942;
+  color: #FFFFFF;
 }
 
 .paragrapgh {
-	color: #0B1942;
+  color: #0B1942;
 }
 
 .upNextHeader {
-	color: white;
-	margin-left: 10%;
+  color: white;
+  margin-left: 10%;
 }
 
 .upNextForeground {
-	display: flex;
-	flex-wrap: wrap;
-	/*border: 5px solid red;*/
-	background-color: #E2E2E2;
-	/*margin: 0 10%;*/
-	/*margin-bottom: 5%;*/
-	/*padding: 5%;*/
-	width: 80%;
-	margin: auto;
-	margin-bottom: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  /*border: 5px solid red;*/
+  background-color: #E2E2E2;
+  /*margin: 0 10%;*/
+  /*margin-bottom: 5%;*/
+  /*padding: 5%;*/
+  width: 80%;
+  margin: auto;
+  margin-bottom: 2rem;
 }
 
 .upNextSection {
-	 background-color: #0B1942;
- }
+  background-color: #0B1942;
+}
 
- .needsAbottomBorder {
-	 border-bottom: 1px solid black;
- }
+.needsAbottomBorder {
+  border-bottom: 1px solid black;
+}
 
- .bold {
-	 font-weight: bold; 
- }
+.bold {
+  font-weight: bold;
+}
 
- .youTube {
-	 color: #00B7D3;
- }
+.youTube {
+  color: #00B7D3;
+}
 
- .medium {
-	 font-size: 1.5rem;
- }
+.medium {
+  font-size: 1.5rem;
+}
 
 .upNextForeground-child {
-	width: 50%;
+  width: 50%;
 }
 
 .image-parent {
-	width:80%;
-	margin: auto;
-	margin-top: 1rem;
+  width: 80%;
+  margin: auto;
+  margin-top: 1rem;
 }
 
 .upNextForeground-child-image {
-	width: 100%;
-	padding: 5px;
+  width: 100%;
+  padding: 5px;
 }
 
 .discussionList {
-	padding-left: 25px;
+  padding-left: 25px;
 }
 
 .spacer {
-	width: calc(50% - 5px - 5px);
-	margin: auto;
-	margin-top: 16px;
-	margin-bottom: 0;
+  width: calc(50% - 5px - 5px);
+  margin: auto;
+  margin-top: 16px;
+  margin-bottom: 0;
 }
 
 li {
-	margin-bottom: 11px;
+  margin-bottom: 11px;
 }
 
 .restofPosters {
-	display: flex;
-	flex-wrap: wrap;
-	background-color: #E2E2E2;
-	margin: 0 10%;
-	padding: 5%;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #E2E2E2;
+  margin: 0 10%;
+  padding: 5%;
 }
 
-.poster{
-flex: 1 1 50%;
+.poster {
+  flex: 1 1 50%;
 }
-
- 
 
 .linksBottom {
-	display: flex;
+  display: flex;
   flex: 1;
   flex-wrap: wrap;
 }
 
- .linksBottom a{
-	display: flex;
-	text-decoration: none;
+.linksBottom a {
+  display: flex;
+  text-decoration: none;
   flex: 1 100%;
-	justify-content: center;
-	align-items: center;
-
+  justify-content: center;
+  align-items: center;
 }
 
- .copyRight {
-	 background-color: #7DDFE8;
-	 width: 100%;
-	 margin: 0;
-	 height: 100px;
-	 display: flex;
-	 justify-content: center;
-	 align-items: center;
- }
- 
- .text {
-	 color:white;
-	 
+.copyRight {
+  background-color: #7DDFE8;
+  width: 100%;
+  margin: 0;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
- }
+.text {
+  color: white;
+}
 
 footer {
-	width: 100%;
-	/*border: 5px solid pink;*/
+  width: 100%;
+  /*border: 5px solid pink;*/
 }
- .navFooter {
-	 display: flex;
-	 }
+.navFooter {
+  display: flex;
+}
 
 .links-container {
-	width: 100%;
-	display: flex;
-	flex-direction: column;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
 }
 
 .link {
-	height: 50px;
-	text-align: center;
-	display: flex;
+  height: 50px;
+  text-align: center;
+  display: flex;
   justify-content: center;
   align-items: center;
-
 }
 
 .link a {
-	text-decoration: none;
-	color: white;
+  text-decoration: none;
+  color: white;
 }
 
 .link__home {
-	background-color: #00A5BF;
+  background-color: #00A5BF;
 }
 
 .link__calendar {
-	background-color: #00B7D3;
-} 
-
-.link__join {
-	background-color: #00D5E7;
+  background-color: #00B7D3;
 }
 
- /*Join - CSS*/
+.link__join {
+  background-color: #00D5E7;
+}
 
- .placeholder-photo {
-	 height: 20rem;
-	 border-radius: 50%;
-	 align-content: center;
- }
+/*Join - CSS*/
 
- .information {
-	 display: flex;
-	 flex-direction: column;
-	 margin: 1rem;
- }
+.placeholder-photo {
+  height: 20rem;
+  border-radius: 50%;
+  align-content: center;
+}
+
+.information {
+  display: flex;
+  flex-direction: column;
+  margin: 1rem;
+}
 
 .genres {
-display: flex;
-	flex-direction: column;
-	flex-wrap: wrap;
-	margin: 0 1rem;
-
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin: 0 1rem;
 }
 
 .inputBox {
-	height: 200px;
-	width: 300px;
-	margin-bottom: 1rem;
+  height: 200px;
+  width: 300px;
+  margin-bottom: 1rem;
 }
+
+/*Calendar - CSS*/
