@@ -142,8 +142,13 @@ li {
   padding: 5%;
 }
 
-.poster {
-  flex: 1 1 50%;
+.poster-container {
+  flex: 1 25%;
+  color: #0B1942;
+}
+
+.posters {
+  height: 150px;
 }
 
 .linksBottom {
