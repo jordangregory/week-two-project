@@ -53,7 +53,8 @@ body {
 }
 
 .topSection {
-  /*border: 5px solid pink;*/
+  display: flex;
+  flex-direction: column;
   margin: 0 10%;
 }
 
@@ -74,11 +75,7 @@ body {
 .upNextForeground {
   display: flex;
   flex-wrap: wrap;
-  /*border: 5px solid red;*/
   background-color: #E2E2E2;
-  /*margin: 0 10%;*/
-  /*margin-bottom: 5%;*/
-  /*padding: 5%;*/
   width: 80%;
   margin: auto;
   margin-bottom: 2rem;
@@ -98,6 +95,7 @@ body {
 
 .youTube {
   color: #00B7D3;
+  font-size: 15px;
 }
 
 .medium {
@@ -138,7 +136,7 @@ li {
   display: flex;
   flex-wrap: wrap;
   background-color: #E2E2E2;
-  margin: 0 10%;
+  margin: 0 10% 5% 10%;
   padding: 5%;
 }
 
