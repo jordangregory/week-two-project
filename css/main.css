@@ -128,7 +128,7 @@ body {
   margin-bottom: 0;
 }
 
-li {
+.bullet-points {
   margin-bottom: 11px;
 }
 
@@ -226,7 +226,14 @@ footer {
 
 /*Join - CSS*/
 
+.profilePictureText {
+  margin-bottom: 0;
+}
+
 .placeholder-photo {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
   height: 20rem;
   border-radius: 50%;
   align-content: center;
@@ -245,10 +252,26 @@ footer {
   margin: 0 1rem;
 }
 
-.inputBox {
-  height: 200px;
-  width: 300px;
+.checkboxes {
+  line-height: 50px;
+}
+
+textarea {
+  width: 100%;
   margin-bottom: 1rem;
+}
+
+.additional {
+  margin: 0 20px;
+}
+
+.joinButton {
+  background-color: #F5005B;
+  height: 70px;
+  width: 115px;
+  margin: 0 0 50px 20px;
+  color: white;
+  border: 0;
 }
 
 /*Calendar - CSS*/
@@ -257,10 +280,11 @@ footer {
   background-color: #0B1942;
 }
 
-.month {
+.monthOfJune {
   color: white;
   background-color: #0B1942;
   list-style-type: none;
+  margin: 5px 0 5px 5px;
 }
 
 .days ul {
@@ -274,8 +298,8 @@ footer {
   padding: 0;
 }
 
-li {
-  width: 65px;
+.calendarNumbers {
+  width: 73px;
   height: 70px;
   background-color: white;
   border: 1px solid #0B1942;
@@ -285,4 +309,11 @@ li {
   background-color: #0B1942;
   /*border: 1px solid green;*/
   width: 20px;
+  padding: 7px;
+}
+.special {
+  width: 73px;
+  height: 70px;
+  background-color: #F5005B;
+  border: 1px solid #0B1942;
 }
