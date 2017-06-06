@@ -252,3 +252,37 @@ footer {
 }
 
 /*Calendar - CSS*/
+
+.calendar {
+  background-color: #0B1942;
+}
+
+.month {
+  color: white;
+  background-color: #0B1942;
+  list-style-type: none;
+}
+
+.days ul {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+  color: white;
+  background-color: #0B1942;
+  margin: 0;
+  text-align: center;
+  padding: 0;
+}
+
+li {
+  width: 65px;
+  height: 70px;
+  background-color: white;
+  border: 1px solid #0B1942;
+}
+
+.calendarDays {
+  background-color: #0B1942;
+  /*border: 1px solid green;*/
+  width: 20px;
+}
