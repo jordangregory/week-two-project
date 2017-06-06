@@ -95,7 +95,7 @@ body {
 
 .youTube {
   color: #00B7D3;
-  font-size: 15px;
+  font-size: 14px;
 }
 
 .medium {
@@ -187,7 +187,6 @@ body {
 
 footer {
   width: 100%;
-  /*border: 5px solid pink;*/
 }
 .navFooter {
   display: flex;
@@ -226,8 +225,13 @@ footer {
 
 /*Join - CSS*/
 
+.JoinFilmClubHeader {
+  color: #0B1942;
+}
+
 .profilePictureText {
   margin-bottom: 0;
+  color: #0B1942;
 }
 
 .placeholder-photo {
@@ -245,6 +249,11 @@ footer {
   margin: 1rem;
 }
 
+.formBox {
+  height: 20px;
+  margin-bottom: 20px;
+  color: #0B1942;
+}
 .genres {
   display: flex;
   flex-direction: column;
@@ -254,6 +263,7 @@ footer {
 
 .checkboxes {
   line-height: 50px;
+  color: #0B1942;
 }
 
 textarea {
@@ -263,15 +273,17 @@ textarea {
 
 .additional {
   margin: 0 20px;
+  color: #0B1942;
 }
 
 .joinButton {
   background-color: #F5005B;
   height: 70px;
-  width: 115px;
+  width: 130px;
   margin: 0 0 50px 20px;
   color: white;
   border: 0;
+  font-size: 15px;
 }
 
 /*Calendar - CSS*/
