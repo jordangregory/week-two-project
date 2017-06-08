@@ -16,7 +16,9 @@ body {
 
 .getInvolved {
   color: #0B1942;
+  padding-left: 1rem;
 }
+
 .logo-container {
   background-color: #F5005B;
   float: left;
@@ -77,7 +79,8 @@ body {
 
 .upNextHeader {
   color: white;
-  margin-left: 10%;
+
+  padding-left: 1rem;
 }
 
 .upNextCards {
@@ -445,3 +448,12 @@ textarea {
     padding: 1rem;
   }
 
+.copyRight {
+  background-color: #7DDFE8;
+  width: 100%;
+  margin: 0;
+  height: 150px;
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 2rem;
+}
