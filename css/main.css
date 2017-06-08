@@ -1,9 +1,17 @@
+html {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   font-family: 'PT Sans', sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
 .navHeader {
   display: flex;
+  background-color: #7DDFE8;
 }
 
 .getInvolved {
@@ -14,7 +22,6 @@ body {
   float: left;
   height: 150px;
   width: 180px;
-  /* padding: 10px; */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -61,6 +68,7 @@ body {
 .titleSection {
   background-color: #0B1942;
   color: #FFFFFF;
+  padding-left: 5px;
 }
 
 .paragrapgh {
@@ -70,6 +78,10 @@ body {
 .upNextHeader {
   color: white;
   margin-left: 10%;
+}
+
+.upNextCards {
+  padding-bottom: 2%;
 }
 
 .upNextForeground {
@@ -136,7 +148,7 @@ body {
   display: flex;
   flex-wrap: wrap;
   background-color: #E2E2E2;
-  margin: 0 10% 5% 10%;
+  margin: 0 10% 0% 10%;
   padding: 5%;
 }
 
@@ -175,7 +187,7 @@ body {
   background-color: #7DDFE8;
   width: 100%;
   margin: 0;
-  height: 100px;
+  height: 150px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -245,8 +257,21 @@ footer {
 
 .information {
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
+  /*flex-direction: column;*/
   margin: 1rem;
+}
+
+.information > * {
+  flex: 1 100%;
+}
+
+.information label {
+  display: block;
+}
+
+.information input {
+  width: 100%;
 }
 
 .formBox {
@@ -328,4 +353,93 @@ textarea {
   height: 70px;
   background-color: #F5005B;
   border: 1px solid #0B1942;
+}
+
+@media screen and (min-width: 545px) {
+  .links-container {
+    flex-direction: row;
+  }
+
+  .link {
+    flex: 0 0 auto;
+    height: 150px;
+    width: 150px;
+  }
+
+  .topSection {
+    flex-direction: row;
+  }
+
+  .topSection > * {
+    flex: 1 33%;
+    padding: 1%;
+  }
+
+  .poster-container > * {
+    flex: 1 25%;
+    box-sizing: border-box;
+    padding: 1rem;
+  }
+
+  .joinPageWrapper {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .joinPageWrapper > * {
+    flex: 1 100%;
+  }
+
+  .profileWrapper {
+    display: flex;
+  }
+
+  .profileWrapper > * {
+    flex: 1 50%;
+  }
+
+  .genres {
+    flex-direction: row;
+  }
+  .genres > * {
+    flex: 1 50%;
+  }
+}
+
+@media screen and (min-width: 769px) {
+  .profile {
+    flex: 1;
+  }
+
+  .information {
+    flex: 2;
+  }
+
+  .information-item {
+    flex: 1 40%;
+    padding: 10px;
+  }
+  .genres > * {
+    flex: 0 33%;
+  }
+
+  .upNextCards {
+    display: flex;
+    padding: 5%;
+    align-items: flex-start;
+  }
+
+  .upNextCards > * {
+    margin: 1%;
+    flex: 1 50%;
+  }
+
+  .poster-container > * {
+    flex: 1 50%;
+    box-sizing: border-box;
+    padding: 1rem;
+  }
+
+  .upNextForeground {
+  }
 }
